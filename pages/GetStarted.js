@@ -1,6 +1,5 @@
-import Image from "next/image";
 import NextLink from "next/link";
-import logo from "../public/homepagelogo.png";
+// import logo from "../public/homepagelogo.png";
 
 export default function GetStarted() {
   return (
@@ -11,13 +10,13 @@ export default function GetStarted() {
         <div>
           <p className=" text-3xl">Welcome to</p>
           <p className="text-5xl">
-            <Image
+            {/* <Image
               className="inline"
               src={logo}
               alt="Picture of the logo"
               width={100}
               height={100}
-            />
+            /> */}
             InvestmentBias
           </p>
         </div>
