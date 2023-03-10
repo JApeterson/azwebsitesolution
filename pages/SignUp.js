@@ -1,10 +1,10 @@
-import Image from "next/image";
-import NextLink from "next/link";
+// import Image from "next/image";
+// import NextLink from "next/link";
 import { useState } from "react";
 import PersonalInformation from "../components/signup/PersonalInformation";
 import ProfileSetup from "../components/signup/ProfileSetup";
 import Subscription from "../components/signup/Subscription";
-import logo from "../public/homepagelogo.png";
+// import logo from "../public/homepagelogo.png";
 import styles from "../styles/Home.module.css";
 
 export default function SignUp() {
@@ -91,7 +91,7 @@ export default function SignUp() {
         <div>
           <ul className="text-5xl">
             <li>
-              <NextLink className="" href="/">
+              {/* <NextLink className="" href="/">
                 <Image
                   className="inline"
                   src={logo}
@@ -100,7 +100,7 @@ export default function SignUp() {
                   height={100}
                 />
                 InvestmentBias
-              </NextLink>
+              </NextLink> */}
             </li>
           </ul>
         </div>
