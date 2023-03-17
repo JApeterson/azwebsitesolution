@@ -23,7 +23,7 @@ function ResponsiveAppBar({ navBarLinks }) {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="sticky">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -50,13 +50,14 @@ function ResponsiveAppBar({ navBarLinks }) {
             href=""
             sx={{
               mr: 2,
-              display: { xs: "flex", md: "none" },
+              display: { xs: "flex", md: "initial" },
               flexGrow: 1,
               fontFamily: "monospace",
               fontWeight: 700,
               // letterSpacing: ".1rem",
               color: "inherit",
               textDecoration: "none",
+              textAlign: "center",
             }}
           >
             Az Website Solution

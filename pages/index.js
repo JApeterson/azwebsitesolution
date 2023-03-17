@@ -28,35 +28,15 @@ export default function Home() {
               height: "auto",
             }}
           />
-          <Typography>
-            My name is Joseph and I have been building websites for over ten
-            years!
-          </Typography>
+          <Typography>Just some filler text for now</Typography>
         </Box>
-        <Typography>
-          My name is Joseph and I have been building websites for over ten
-          years!
-        </Typography>
-        <Typography>
-          My name is Joseph and I have been building websites for over ten
-          years!
-        </Typography>
-        <Typography>
-          My name is Joseph and I have been building websites for over ten
-          years!
-        </Typography>
-        <Typography>
-          My name is Joseph and I have been building websites for over ten
-          years!
-        </Typography>
-        <Typography>
-          My name is Joseph and I have been building websites for over ten
-          years!
-        </Typography>
-        <Typography>
-          My name is Joseph and I have been building websites for over ten
-          years!
-        </Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
         <Box id={navBarLinks[1]} sx={{ textAlign: "center" }}>
           <Image
             alt="me"
@@ -69,39 +49,17 @@ export default function Home() {
               height: "auto",
             }}
           />
-          <Typography>
-            My name is Joseph and I have been building websites for over ten
-            years!
-          </Typography>
+          <Typography>Just some filler text for now</Typography>
         </Box>
-        <Typography>
-          My name is Joseph and I have been building websites for over ten
-          years!
-        </Typography>
-        <Typography>
-          My name is Joseph and I have been building websites for over ten
-          years!
-        </Typography>
-        <Typography>
-          My name is Joseph and I have been building websites for over ten
-          years!
-        </Typography>
-        <Typography>
-          My name is Joseph and I have been building websites for over ten
-          years!
-        </Typography>
-        <Typography>
-          My name is Joseph and I have been building websites for over ten
-          years!
-        </Typography>
-        <Typography>
-          My name is Joseph and I have been building websites for over ten
-          years!
-        </Typography>
-        <Typography>
-          My name is Joseph and I have been building websites for over ten
-          years!
-        </Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
+        <Typography>Just some filler text for now</Typography>
         <Box id={navBarLinks[2]} sx={{ textAlign: "center" }}>
           <Image
             alt="me"
@@ -114,10 +72,7 @@ export default function Home() {
               height: "auto",
             }}
           />
-          <Typography>
-            My name is Joseph and I have been building websites for over ten
-            years!
-          </Typography>
+          <Typography>Just some filler text for now</Typography>
         </Box>
       </Stack>
     </>
