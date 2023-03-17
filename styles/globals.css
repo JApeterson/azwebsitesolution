@@ -2,3 +2,7 @@
   padding: 16px;
   justify-content: center;
 }
+html,
+body {
+  scroll-behavior: smooth;
+}

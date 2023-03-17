@@ -38,6 +38,7 @@ function ResponsiveAppBar({ navBarLinks }) {
               <MenuIcon />
             </IconButton>
             <TemporaryDrawer
+              navBarLinks={navBarLinks}
               drawerOpen={drawerOpen}
               toggleDrawer={toggleDrawer}
             />
@@ -53,12 +54,12 @@ function ResponsiveAppBar({ navBarLinks }) {
               flexGrow: 1,
               fontFamily: "monospace",
               fontWeight: 700,
-              letterSpacing: ".3rem",
+              // letterSpacing: ".1rem",
               color: "inherit",
               textDecoration: "none",
             }}
           >
-            Arizona Website Solution
+            Az Website Solution
           </Typography>
         </Toolbar>
       </Container>
