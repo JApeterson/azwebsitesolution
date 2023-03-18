@@ -4,7 +4,6 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import PropTypes from "prop-types";
 import { useState } from "react";
 import TemporaryDrawer from "./TemporaryDrawer";
@@ -43,25 +42,6 @@ function ResponsiveAppBar({ navBarLinks }) {
               toggleDrawer={toggleDrawer}
             />
           </Box>
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: "flex", md: "initial" },
-              flexGrow: 1,
-              fontFamily: "monospace",
-              fontWeight: 700,
-              // letterSpacing: ".1rem",
-              color: "inherit",
-              textDecoration: "none",
-              textAlign: "center",
-            }}
-          >
-            Az Website Solution
-          </Typography>
         </Toolbar>
       </Container>
     </AppBar>

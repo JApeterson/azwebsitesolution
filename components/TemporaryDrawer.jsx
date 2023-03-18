@@ -26,7 +26,7 @@ export default function TemporaryDrawer({
         >
           <List>
             {navBarLinks.map((text, index) => (
-              <Link key={text} href={`#${text}`}>
+              <Link key={text} href={`#${text}`} scroll={false}>
                 <ListItem disablePadding>
                   <ListItemButton>
                     <ListItemIcon>
